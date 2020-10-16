@@ -13,6 +13,7 @@ const Button = styled.button`
     ${props =>
     props.primary &&
     css`
+
       background: palevioletred;
       color: white;
     `};
@@ -21,5 +22,6 @@ const Button = styled.button`
 export default () => (
     <div>
         <Button primary>Testing Button</Button>
+        testin
     </div>
 );
